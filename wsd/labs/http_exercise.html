@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <strong>1. What is the Hypertext Transfer Protocol (HTTP) </strong>  <br>
+-> An application layer protocol used to transmit 'hypermedia' documents like HTML. <br>
+<br>
+<strong>2. Why is HTTP called a stateless protocol? </strong><br>
+-> It follows a client-server model and is a stateless protocol which means it does not retain any data in between requests from the client side.  <br>
+<br>
+<strong>3. Describe the three phases of establishing a session using client-server protocols such as HTTP</strong> <br>
+
+-> (1)The client establishes the connection through either a TCP connection or any other suitable transport layer. <br>
+   (2)The client sends the request to the server. <br>
+   (3)The server processes and sends back the answer while also providing a status code as well as any relevant data. <br>
+<br>
+<strong>4. Describe the parameters on a get and post request. </strong><br>
+-> GET : The parameter name and it's associated values are present. <br>
+   POST: The keys and values are encoded in a data structure and non alphanumeric characters are percent encoded.<br>
+<br>
+<strong>5. What are the HTTP response status code and What do the HTTP status codes, 200, and 404 indicate?</strong> <br>
+-> Response status codes indicate whether requests are successfully completed or not. <br>
+   HTTP status code 200 - the request has succeeded. <br>
+   HTTP status code 404 - the server was unable to find the requested resource. <br>
+ <br>
+
+<strong>6. What are HTTP cookies? Give an example.</strong> <br>
+-> It is data sent by the server to a client's web browser such that the browser may store it and send it back with rewuests to the same server at a later point in time. <br>
+the option to stay signed in or to remember passwords during login to online services are the result of cookies. <br>
+<br>
+<strong>7. Why are cookies a security issue?</strong> <br>
+-> They can be read an modified/edited by those who have access to a clients hard disk in spite of the security measures taken to ensure cookies cannot fall into the hands of <br>
+third parties and only go to the intended recipient. <br>
+<br>
+<strong>8. Describe session hijacking and XSS</strong> <br>
+-> XSS, referring to cross site scripting is a security gap which allows an attacker to inject malicious client side code into the website. This code is later executed by the <br>
+victims of the attack and allow the attacker to get past security/access controls and subsequently impersonate users. <br>
+Session Hijacking relies on an attackers knowledge of a users session cookie. Once a user is authenticated on the server side, the attacker is capable of using the session cookie to <br>
+hijack the session on their own browser. <br>
+<br>
+
+<strong>9. Describe Cross-site request forgery(CSRF)-></strong> <br>
+-> An attacker can use XSS to launch a CSRF attack. The attacker causes a user's browser to send a request to the website without the user's own knowledge. <br>
+<br>
+
+<strong>10. What are Cross-site HTTP requests (CORS) and what requests use CORS?</strong> <br>
+-> They are requests for resources belonging to a different domain than the domain of the resource that makes the request. <br>
+CSS Shapes from images makes such requests. <br>
+<br>
+    
+</body>
+</html>
+
